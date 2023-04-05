@@ -1,0 +1,14 @@
+numpy
+pandas
+nltk
+re
+string
+gensim
+typing
+jpype
+transformers
+torch
+matplotlib
+sklearn
+keras
+
