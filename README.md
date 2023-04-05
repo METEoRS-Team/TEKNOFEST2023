@@ -1,6 +1,7 @@
-## TEKNOFEST 2023 Türkçe Doğal Dil İşleme Yarışması 
+#Acikhack2023
 
-## Acikhack2023
+
+## TEKNOFEST 2023 Türkçe Doğal Dil İşleme Yarışması 
 
 ### Aşağılayıcı Söylemlerin Doğal Dil İşleme İle Tespiti
 
