@@ -106,5 +106,6 @@ Is_offensive alanı çalışmaları
 Yapılan çalışmalar ve incelemeler sonucunda geliştirilen modellerden BERTurk modeli ile en yüksek doğruluklu sonuçlar vermiştir. Target ve is_offensive alanları için farklı modeller geliştirilip ağırlıkları kaydedilerek ensemble öğrenme gerçekleştirilmiştir.
 
 Aşağılayıcı söylemler için geliştirdiğimiz ağırlık [Ağırlık]([METEoRS/berturk_model_insult](https://huggingface.co/METEoRS/berturk_model_insult/tree/main)
+
 Is offensive için geliştirdiğimiz ağırlık  [Ağırlık](METEoRS/berturk_model_isoffensive](https://huggingface.co/METEoRS/berturk_model_isoffensive/tree/main)
 
