@@ -27,9 +27,9 @@ Aşağılayıcı söylemlerin doğal dil işleme ile tespiti projesinde bir metn
 ### Veri Seti
 
 Problemin çözümünde kullanılan veri kümesi yarışma komitesi tarafından csv dosya formatında paylaşılmıştır. Yaklaşık 12000 adet etiketli olan metin verisinden oluşmaktadır. Veri kümesi içerisinde bulunan metinler target başlığı altında  SEXIST, RACIST, PROFANITY, INSULT olmak üzere 5 farklı etiketle etiketlenmiştir. is_offensive başlığı altında OFFENSİVE:1 veya NOT OFFENSİVE:0 olmak üzere 2 farklı etiketle etiketlenmiştir.  Metin verilerinin etiket dağılımı grafiklerde görülmektedir. 
-[Dağılım1](https://drive.google.com/file/d/1nGzMsgrVBZzdwtOTH3DHazTIR70slaK2/view?usp=sharing)
+[Target Alanı Dağılımı](https://drive.google.com/file/d/1nGzMsgrVBZzdwtOTH3DHazTIR70slaK2/view?usp=sharing)
 
-[dağılım2](https://drive.google.com/file/d/1jJK4-sS-_cwSc8AI96EtuKKqmM8CXce2/view?usp=sharing)
+[is_offensive Alanı Dağılımı](https://drive.google.com/file/d/1jJK4-sS-_cwSc8AI96EtuKKqmM8CXce2/view?usp=sharing)
 ### Veri Önişleme
 
 Yapılan keşifsel incelemeler ve deneysel çalışmalar sonucunda veri seti üzerinde
