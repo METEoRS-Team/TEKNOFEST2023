@@ -98,14 +98,47 @@ Derin Öğrenme Algoritmaları
 |BERTurk|Tahmin yapılacak modelin eğitilmesi|0.92|0,072148|
 
 Is_offensive alanı çalışmaları
+Makine Öğrenmesi
+| Algoritmalar | YÖNTEM | Macro avg f1-score |
+| ------------- | ------------- |  ------------- |
+| Lojistic Regression | BoW Vektörleri ile Deneme | 0.8878 |
+| Lojistic Regression | TF-IDF Vektörleri ile Deneme | 0.8802 |
+| Lojistic Regression | BoW Vektörleri Dengelenmiş | 0.8866 |
+| Lojistic Regression | TF-IDF Vektörleri Dengelenmiş | 0.8796 |
+| Multinomial Naive Bayes | BoW Vektörleri ile Deneme | 0.8950 |
+| Multinomial Naive Bayes | TF-IDF Vektörleri ile deneme | 0.8799|
+| Multinomial Naive Bayes | BoW Vektörleri Dengelenmiş | 0.8765 |
+| Multinomial Naive Bayes | TF-IDF Vektörleri Dengelenmiş | 0.8783|
+| Support Vektor Machines | BoW Vektörleri ile Deneme | 0.8308| 
+| Support Vektor Machines | TF-IDF Vektörleri ile deneme|0.8280|
+| Support Vektor Machines | BoW Vektörleri Dengelenmiş | 0.8086| 
+| Support Vektor Machines | TF-IDF Vektörleri Dengelenmiş |0.8216|
+| Decision Trees | BoW Vektörleri ile Deneme | 0.8403|
+| Decision Trees|TF-IDF Vektörleri ile deneme|0.8367|
+|K-NN|BoW Vektörleri ile Deneme|0.7511|
+|K-NN|TF-IDF Vektörleri ile deneme|0.7087|
+|Random Forest|BoW Vektörleri ile Deneme|0.7076|
+|Random Forest|TF-IDF Vektörleri ile deneme|0.7083|
+
+Derin Öğrenme Algoritmaları
+
+| YÖNTEM | Önişlemeler| Train accuracy | Train loss | Val loss|val accuracy|
+| -------| ---------- |  ------------- |  --------- |  ------- | -------------
+|LSTM|Tüm önişlemelerle eğitim|0.8955|0.2176|0.4208 |0.8399|
+|LSTM|Lemma bulma adımı hariç tüm önişlemelerle eğitim|0.9378 |0.1406 |0.4074 ||0.8756|
+|Bi-LSTM|Tüm önişlemelerle eğitim| 0.9526 |0.1293 |0.3966 |0.8780|
+|Bi-LSTM|Lemma bulma adımı hariç tüm önişlemelerle eğitim|0.1825 |0.9157 |0.4065 |0.8487|
+
+
 |Model | Önişlemeler | Doğruluk | Loss|
 | -------| ---------- |  ------------- |  --------- |
 |BERTurk|Tüm önişlemelerle eğitim|0.95|0,002|
+|BERTurk|Lemma bulma adımı hariç tüm önişlemelerle eğitim|0.94|0.01|
 
 ### Sonuçlar
 Yapılan çalışmalar ve incelemeler sonucunda geliştirilen modellerden BERTurk modeli ile en yüksek doğruluklu sonuçlar vermiştir. Target ve is_offensive alanları için farklı modeller geliştirilip ağırlıkları kaydedilerek ensemble öğrenme gerçekleştirilmiştir.
 
-Aşağılayıcı söylemler için geliştirdiğimiz ağırlık [Ağırlık]([METEoRS/berturk_model_insult](https://huggingface.co/METEoRS/berturk_model_insult/tree/main)
+Aşağılayıcı söylemler için geliştirdiğimiz ağırlık [METEoRS/berturk_model_insult](https://huggingface.co/METEoRS/berturk_model_insult/tree/main)
 
-Is offensive için geliştirdiğimiz ağırlık  [Ağırlık](METEoRS/berturk_model_isoffensive](https://huggingface.co/METEoRS/berturk_model_isoffensive/tree/main)
+Is offensive için geliştirdiğimiz ağırlık  [METEoRS/berturk_model_isoffensive](https://huggingface.co/METEoRS/berturk_model_isoffensive/tree/main)
 
